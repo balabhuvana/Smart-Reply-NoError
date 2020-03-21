@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color tfe_color_accent
+color tfe_color_primary
+color tfe_color_primary_dark
+dimen tfe_sr_activity_margin
+drawable ic_launcher
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable icn_chevron_down
+drawable icn_chevron_up
+drawable tfl2_logo
+drawable tfl2_logo_dark
+id message_input
+id message_text
+id scroll_view
+id send_button
+layout tfe_sr_main_activity
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string tfe_sr_app_name
+string tfe_sr_button_send
+string tfe_sr_edit_text_hint
+style AppTheme.SmartReply

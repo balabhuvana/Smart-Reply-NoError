@@ -1,0 +1,53 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2019 The TensorFlow Authors. All Rights Reserved.
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="org.tensorflow.lite.examples.smartreply"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->/Users/balamuruganselvam/Documents/ML-Learning/ML-Try-With-Module/sample/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="28" />
+24-->/Users/balamuruganselvam/Documents/ML-Learning/ML-Try-With-Module/sample/src/main/AndroidManifest.xml
+25
+26    <application>
+26-->/Users/balamuruganselvam/Documents/ML-Learning/ML-Try-With-Module/sample/src/main/AndroidManifest.xml:20:3-32:17
+27        <activity
+27-->/Users/balamuruganselvam/Documents/ML-Learning/ML-Try-With-Module/sample/src/main/AndroidManifest.xml:22:5-31:16
+28            android:name="org.tensorflow.lite.examples.smartreply.SmartReplyActivity"
+28-->/Users/balamuruganselvam/Documents/ML-Learning/ML-Try-With-Module/sample/src/main/AndroidManifest.xml:23:9-43
+29            android:configChanges="orientation|keyboardHidden|screenSize"
+29-->/Users/balamuruganselvam/Documents/ML-Learning/ML-Try-With-Module/sample/src/main/AndroidManifest.xml:24:9-70
+30            android:screenOrientation="portrait"
+30-->/Users/balamuruganselvam/Documents/ML-Learning/ML-Try-With-Module/sample/src/main/AndroidManifest.xml:26:9-45
+31            android:windowSoftInputMode="adjustResize" >
+31-->/Users/balamuruganselvam/Documents/ML-Learning/ML-Try-With-Module/sample/src/main/AndroidManifest.xml:25:9-51
+32            <intent-filter>
+32-->/Users/balamuruganselvam/Documents/ML-Learning/ML-Try-With-Module/sample/src/main/AndroidManifest.xml:27:7-30:23
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/balamuruganselvam/Documents/ML-Learning/ML-Try-With-Module/sample/src/main/AndroidManifest.xml:28:9-60
+33-->/Users/balamuruganselvam/Documents/ML-Learning/ML-Try-With-Module/sample/src/main/AndroidManifest.xml:28:17-58
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/balamuruganselvam/Documents/ML-Learning/ML-Try-With-Module/sample/src/main/AndroidManifest.xml:29:9-68
+35-->/Users/balamuruganselvam/Documents/ML-Learning/ML-Try-With-Module/sample/src/main/AndroidManifest.xml:29:19-66
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tfe_color_accent">#425066</color>
+    <color name="tfe_color_primary">#ffa800</color>
+    <color name="tfe_color_primary_dark">#ff6f00</color>
+    <dimen name="tfe_sr_activity_margin">16dp</dimen>
+    <string name="tfe_sr_app_name" translatable="false">TFL Smart Reply</string>
+    <string name="tfe_sr_button_send" translatable="false">Send</string>
+    <string name="tfe_sr_edit_text_hint" translatable="false">Enter your message...</string>
+    <style name="AppTheme.SmartReply" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/tfe_color_primary</item>
+    <item name="colorPrimaryDark">@color/tfe_color_primary_dark</item>
+    <item name="colorAccent">@color/tfe_color_accent</item>
+  </style>
+</resources>
