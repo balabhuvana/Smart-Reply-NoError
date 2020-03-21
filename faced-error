@@ -1,0 +1,11 @@
+1. Create Test Project.
+2. Import as module -> error will face app name is all ready exits. select import check box and give new module name.
+3. apply plugin: 'com.android.application' to replace with 'apply plugin: 'com.android.library' in library module  build.gradle.
+4. remove the application id in library module build.gradle.
+5. change the min sdk version 21 for all the project.
+6. cannot download -> apply plugin: 'de.undercouch.download'.
+   Solution : classpath 'de.undercouch:gradle-download-task:3.4.3' add it in My Application.gradle.
+7. package android.support.annotation does not exist.
+   Solution : Remove the import above line and press alt enter it will import proper package.
+8. androidx.constraintlayout.widget.ConstraintLayout use this in xml.
+9. Remove the all the tag inside the appilcation in library module.
